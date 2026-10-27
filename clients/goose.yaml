@@ -1,0 +1,7 @@
+extensions:
+  daydream:
+    enabled: true
+    name: daydream
+    type: streamable_http
+    uri: https://gen.daydream.live/mcp
+    timeout: 300

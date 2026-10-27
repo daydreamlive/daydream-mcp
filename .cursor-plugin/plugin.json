@@ -1,0 +1,22 @@
+{
+  "name": "daydream",
+  "displayName": "Daydream",
+  "version": "0.1.0",
+  "description": "Original instrumental songs from words, each with five stems. Royalty-free, for games and videos.",
+  "author": {
+    "name": "Daydream"
+  },
+  "homepage": "https://gen.daydream.live/docs#mcp",
+  "repository": "https://github.com/daydreamlive/daydream-mcp",
+  "license": "MIT",
+  "keywords": [
+    "music",
+    "stems",
+    "audio",
+    "game music",
+    "loops",
+    "royalty-free",
+    "mcp"
+  ],
+  "logo": "assets/daydream-logo-512.png"
+}

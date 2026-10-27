@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "daydream": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://gen.daydream.live/mcp"]
+    }
+  }
+}

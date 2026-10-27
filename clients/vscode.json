@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "daydream": {
+      "type": "http",
+      "url": "https://gen.daydream.live/mcp"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "live.daydream.gen/music",
+  "title": "Daydream",
+  "description": "Original instrumental songs from words, each with five stems. Royalty-free, for games and videos.",
+  "version": "0.1.1",
+  "websiteUrl": "https://gen.daydream.live/docs#mcp",
+  "repository": {
+    "url": "https://github.com/daydreamlive/daydream-mcp",
+    "source": "github"
+  },
+  "icons": [{ "src": "https://gen.daydream.live/daydream-icon.png", "mimeType": "image/png", "sizes": ["1024x1024"] }],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gen.daydream.live/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional: Bearer and a Daydream API key (app.daydream.live/dashboard/api-keys). Without it, the client signs in with OAuth.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
