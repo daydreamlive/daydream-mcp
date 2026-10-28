@@ -31,6 +31,7 @@ credentials live here.
 | Claude (claude.ai, desktop, phone) | Customize → Connectors → Add custom connector, and paste `https://gen.daydream.live/mcp` |
 | Claude Code | `claude mcp add --transport http daydream https://gen.daydream.live/mcp`, then `/mcp` in a session to sign in |
 | ChatGPT | Add the [Daydream app](https://chatgpt.com/plugins/plugin_asdk_app_6ada33e71edc8191a47e362e40f5aba0) from the app directory |
+| Grok | Plugins → New Connector → Custom: name it Daydream, paste `https://gen.daydream.live/mcp`, then sign in when Grok asks |
 | Cursor | [Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=daydream&config=eyJ1cmwiOiJodHRwczovL2dlbi5kYXlkcmVhbS5saXZlL21jcCJ9), or copy [`clients/cursor.json`](clients/cursor.json) into `~/.cursor/mcp.json` |
 | VS Code | [Add to VS Code](vscode:mcp/install?%7B%22name%22%3A%22daydream%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fgen.daydream.live%2Fmcp%22%7D), or copy [`clients/vscode.json`](clients/vscode.json) into `.vscode/mcp.json` |
 | Windsurf | Copy [`clients/windsurf.json`](clients/windsurf.json) into `~/.codeium/windsurf/mcp_config.json` |
@@ -69,8 +70,8 @@ A key can do anything on its account. Keep it in your environment, not in a file
 | `list_songs` | Your songs, newest first |
 | `get_songs_left` | Songs made and left this month, and when the count starts again |
 
-In Claude and ChatGPT the song plays in the chat with its stems. In Claude Code, Cursor or VS Code there's no player:
-the agent downloads the files you ask for into your project.
+In Claude and ChatGPT the song plays in the chat with its stems. Grok answers with links to the mix and stems. In
+Claude Code, Cursor or VS Code there's no player: the agent downloads the files you ask for into your project.
 
 ### Try asking
 
